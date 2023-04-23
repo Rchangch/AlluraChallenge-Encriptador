@@ -81,6 +81,14 @@ function limpiar() {
   texto.value = "";
   botonCopiar.setAttribute("hidden", "");
   botonLimpiar.setAttribute("hidden", "");
+
+  var advertencia = document.getElementById("recuerda");
+  advertencia.removeAttribute("style");
+}
+
+function eliminarAdvertencia() {
+  var advertencia = document.getElementById("recuerda");
+  advertencia.setAttribute("style", "color:antiquewhite");
 }
 
 var botonEncriptar = document.getElementById("Encriptar");
