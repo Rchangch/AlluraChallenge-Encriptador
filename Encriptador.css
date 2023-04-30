@@ -169,7 +169,7 @@ button:hover {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
   textarea {
     width: 350px;
   }
