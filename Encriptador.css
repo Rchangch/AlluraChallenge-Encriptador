@@ -168,3 +168,15 @@ button:hover {
     width: 440px;
   }
 }
+
+@media (max-width: 420px) {
+  textarea {
+    width: 350px;
+  }
+}
+
+@media (max-width: 360px) {
+  * {
+    font-size: 20px;
+  }
+}

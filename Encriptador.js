@@ -9,7 +9,7 @@ function encriptar() {
   if (!texto.value) {
     alert("Ingrese Texto");
   } else if (!patron.test(texto.value)) {
-    alert("Solo Minúsculas y sin Caracteres Especiales");
+    alert("Solo Minúsculas y sin Numeros ni Caracteres Especiales");
   } else {
     encriptado();
   }
